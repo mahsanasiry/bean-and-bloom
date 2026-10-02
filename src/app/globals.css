@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* keeps section titles below the sticky header */
+  }
+
+  body {
+    @apply bg-paper text-pine-950 antialiased;
+  }
+
+  :focus-visible {
+    outline: 3px solid #d99a00;
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
