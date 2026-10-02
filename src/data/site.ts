@@ -35,8 +35,7 @@ export const site = {
       display: "8:00 am to 4:00 pm",
     },
   ],
-  
-  web3formsKey: FORM_KEY_PLACEHOLDER,
+  web3formsKey: "5bf7454b-f43b-4cde-9893-4f0e40fe7e84",
 };
 
 export const navItems = [
