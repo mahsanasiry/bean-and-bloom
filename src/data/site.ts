@@ -8,7 +8,7 @@ export const site = {
 
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
 
-  email: "mahsanasiry2009@gmail.com",
+  email: "mahsanasiry0@gmail.com",
   phone: "+1 503 555 0142",
 
   address: {
