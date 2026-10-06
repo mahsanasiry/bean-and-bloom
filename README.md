@@ -1,53 +1,45 @@
-# Bean & Bloom: landing page for a small business
+# Bean & Bloom
 
-A fast, responsive, SEO-ready landing page for a neighborhood coffee roaster.
-Built with **Next.js 14 (App Router)**, **TypeScript** and **Tailwind CSS**, exported as a static site.
+> A responsive coffee shop website with a clean and modern interface.
+
+Bean & Bloom is a responsive coffee shop website built to showcase a realistic product and ordering experience with a focus on clean UI, responsive design and accessible interactions.
+
+🌐 **Live Demo:** https://mahsanasiry.github.io/bean-and-bloom/
 
 ## Features
 
-- Fully responsive layout (mobile, tablet, desktop)
-- Accessible: skip link, keyboard navigation, visible focus, ARIA labels, reduced-motion support
-- Contact form with client-side validation, spam trap and success/error states (Web3Forms)
-- SEO basics: page metadata, Open Graph tags, `sitemap.xml`, `robots.txt`, JSON-LD (LocalBusiness)
-- No external images or fonts, so pages load quickly
-- All content in one file (`src/data/site.ts`), so it is easy to reuse for another business
+- Responsive coffee shop landing page
+- Product and menu sections
+- Product categories
+- Shopping cart interactions
+- Order summary
+- Interactive navigation
+- Responsive mobile layout
+- Accessible UI components
+- Clean and reusable React components
 
-## Run locally
+## Tech Stack
 
-```bash
-npm install
-npm run dev
-```
+- React
+- TypeScript
+- Tailwind CSS
+- HTML5
+- GitHub Actions
+- GitHub Pages
 
-Open http://localhost:3000.
+## Project Highlights
 
-## Build
+Bean & Bloom was built as a practical front-end project with a focus on:
 
-```bash
-npm run build
-```
+- Component-based development
+- Type-safe development with TypeScript
+- Responsive design
+- Interactive UI state
+- Accessible interfaces
+- Reusable components
+- Clean and maintainable code
+- Static deployment with GitHub Actions
 
-The static site is created in the `out` folder.
+## Source Code
 
-## Contact form setup
-
-1. Get a free access key at https://web3forms.com.
-2. Paste it into `web3formsKey` in `src/data/site.ts`.
-
-Until a key is added, the form opens the visitor's email app instead.
-
-## Deploy to GitHub Pages
-
-1. Push this repository to GitHub (the repository name becomes part of the URL).
-2. Go to **Settings > Pages** and set **Source** to **GitHub Actions**.
-3. Every push to `main` runs `.github/workflows/deploy.yml` and publishes the site at
-   `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`.
-
-## Project structure
-
-```
-src/
-  app/          layout, page, sitemap, robots, styles
-  components/   Header, Hero, About, Menu, Reviews, Faq, Contact, ContactForm, Footer
-  data/site.ts  all site content
-```
+https://github.com/mahsanasiry/bean-and-bloom
